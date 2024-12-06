@@ -1,6 +1,6 @@
 use customer_engagement;
 
--- Find total number of students --
+-- Find total number of students.
 SELECT COUNT(distinct student_id)
 FROM student_engagement;
 -- result: 19332
