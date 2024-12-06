@@ -5,7 +5,7 @@ SELECT COUNT(distinct student_id)
 FROM student_engagement;
 -- result: 19332
 
--- 1. Using information from student purchase table to retrieve id of the purchase, id of the student who made the purchase, purchase type, purchase date which marks the start date of student subscription, the date on which the subscription ends and refund date.
+-- 1. Finding id of the purchase, id of the student who made the purchase, purchase type, purchase date which marks the start date of student subscription, the date on which the subscription ends and refund date.
 CREATE VIEW purchases_info AS
 SELECT 
     purchase_id,
