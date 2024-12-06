@@ -30,7 +30,7 @@ FROM
     FROM
         student_purchases) a;
 
--- 2. Finding out each student's learning time (watched minutes) and payment status on each viewing date.
+-- 2. Finding out each student's watched minutes and payment status on each watching date.
 SELECT c.* FROM
 (
 SELECT 
